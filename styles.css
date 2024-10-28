@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  font-family: "Roboto", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+nav {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 0 250px;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.hero {
+  display: flex;
+  padding: 0 250px;
+}
+.title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 72px 0;
+}
+.btn {
+  width: 100px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+.btn-normal {
+    background-color: #3882f6;
+}
+.img-placeholder {
+  width: 700px;
+  height: 300px;
+  padding: 48px;
+  background-color: azure;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main > h2 {
+    padding: 20px;
+}
+
+.coverflow {
+  gap: 20px;
+  height: max-content;
+  display: flex;
+  padding: 30px;
+}
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+}
+.cover img {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.subtext {
+  color: #e5e7eb;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 200px;
+    padding: 0 300px;
+}
+.quote {
+    width: 700px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+footer {
+    background-color: #1f2937;
+}
